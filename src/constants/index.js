@@ -135,7 +135,7 @@ import {
     {
       title: "Full Stack Developer / BlockChain",
       company_name: "Octaloop Technology",
-      icon: './src/assets/company/octal.jpg',
+      icon: 'https://res.cloudinary.com/dolfkczwp/image/upload/v1725447319/octal_ame9dt.jpg',
       iconBg: "#383E56",
       date: "Present",
       points: [
@@ -147,7 +147,7 @@ import {
     {
       title: "Full Stack Developer ",
       company_name: "IsoftStudios",
-      icon: './src/assets/isoft.png',
+      icon: 'https://res.cloudinary.com/dolfkczwp/image/upload/v1725447260/isoft_jqb7a3.png',
       iconBg: "#E6DEDD",
       date: "Nov 2023 - June 2024",
       points: [
@@ -160,7 +160,7 @@ import {
     {
       title: "Nodejs Developer",
       company_name: "Solution Corridor",
-      icon: './src/assets/company/sol.png',
+      icon: 'https://res.cloudinary.com/dolfkczwp/image/upload/v1725447868/sol_pklr9e.png',
       iconBg: "#383E56",
       date: "March 2023 - Oct 2023",
       points: [
@@ -219,7 +219,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/chat.png",
+      image: "https://res.cloudinary.com/dolfkczwp/image/upload/v1725447202/chat_iu5t3o.png",
       links:"https://chat-kyc.vercel.app/",
     },
     {
@@ -240,7 +240,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/air.png",
+      image: "https://res.cloudinary.com/dolfkczwp/image/upload/v1725447068/air_jtrk00.png",
       source_code_link: "",
       links:"https://airbnb-frontend-beta.vercel.app/"
     },
@@ -262,7 +262,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/st.png",
+      image: "https://res.cloudinary.com/dolfkczwp/image/upload/v1725447307/st_pi39os.png",
       source_code_link: "https://www.strongpackagings.com/",
       links:"https://www.strongpackagings.com"
     },
@@ -284,7 +284,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/ap.png",
+      image: "https://res.cloudinary.com/dolfkczwp/image/upload/v1725447226/ap_hkbt7j.png",
       source_code_link: "",
       links:"https://apextruckers.com/"
     },
