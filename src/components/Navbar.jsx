@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom'
 import { styles } from '../style'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
-import logos from "../assets/logo-no-background.png"
+import logos from "../assets/logoz1.png"
 
 const Navbar = () => {
   const [Active, setActive] = useState("")
   const [Toggle, setToggle] = useState(false)
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-2 fixed top-0 z-20 bg-primary`}>
       <div className='flex w-full justify-between items-center max-w-7xl mx-auto'>
         <Link className='flex  items-center gap-5' onClick={() => { setActive(''); window.scrollTo(0, 0) }} to='/'>
           <img src={logos} alt="logo" style={{ height: "50px" }} className='object-contain' />
 
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Muarif &nbsp; 
-            <span className='sm:block hidden'>| Full-Stack-DEV</span>
+            Jahan Zaib &nbsp; 
+            <span className='sm:block hidden'>| Full-Stack Developer</span>
             </p>
 
 

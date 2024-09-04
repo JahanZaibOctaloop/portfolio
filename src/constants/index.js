@@ -29,9 +29,12 @@ import {
     wd,
     le,
     fver,
-    up
+    up,
+   
+
     
   } from "../assets";
+ 
   
   export const navLinks = [
     {
@@ -50,24 +53,49 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Nodejs / Reactjs",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MongoDB / MySql",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Html5 / CSS3",
       icon: backend,
+    },
+    {
+      title: "Stripe / Twilio",
+      icon: creator,
+    },
+    {
+      title: "BlockChain",
+      icon: creator,
+    },
+    {
+      title: "Database Mange",
+      icon: creator,
     },
     {
       title: "Frontend Developer",
       icon: creator,
     },
+    {
+      title: "Backend Developer",
+      icon: creator,
+    },
   ];
   
   const technologies = [
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },           
     {
       name: "HTML 5",
       icon: html,
@@ -75,47 +103,28 @@ import {
     {
       name: "CSS 3",
       icon: css,
-    },
+    },  
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
+    
+   
     {
       name: "Redux Toolkit",
       icon: redux,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+ 
     {
       name: "MongoDB",
       icon: mongodb,
     },
+  
     {
-      name: "Three JS",
-      icon: mui,
-    },
-    {
-      name: "git",
+      name: "GitHub",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: nextjs,
-    },
+    
     {
       name: "docker",
       icon: bootstrap,
@@ -124,94 +133,81 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Web Devrs",
-      icon: wd,
+      title: "Full Stack Developer / BlockChain",
+      company_name: "Octaloop Technology",
+      icon: './src/assets/company/octal.jpg',
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Work on AI and BlockChain Projects Implement the The API and Mange the Backend.",
+        "Integrate the Payment API Stripe in AI Project and Data save and Mange Using the MongoDB Database.",
+        "Wrok on Two Projects One is AI project Chat-kyc and Other BlockChain Project Supervet-SKALE.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Letskill",
-      icon: le,
+      title: "Full Stack Developer ",
+      company_name: "IsoftStudios",
+      icon: './src/assets/isoft.png',
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2023 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Crafting and sustaining dynamic web applications leveraging React.js, Node.js, and an ecosystem of modern technologies.",
+        "Work on Modern Third party Application and Implement in Projects like This Payment Gateway Stripe , Socket.io ,Twilio and Reduixtollkit ",
+        "Create many project like this Airbnb , Social_App.com and Ecommerce Website",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Fiverr",
-      icon: fver,
+      title: "Nodejs Developer",
+      company_name: "Solution Corridor",
+      icon: './src/assets/company/sol.png',
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2023 - Oct 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Building and managing web applications using HTML, CSS, Bootstrap, JavaScript, and related technologies.",
+        "Creating and managing web applications with Node.js and related technologies.",
+        "Create the Dubai.com Web Application In Nodejs , MySql and HTML/CSS ",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Upwork",
-      icon: up,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
     {
       testimonial:
-        "We wanted a website in order to increase the digital presence of our website and Muarif helped us greatly in making a website in quite a short time and great budget.",
-      name: "Hafiz Usman",
+        "We wanted a website in order to increase the digital presence of our website and JahanZaib helped us greatly in making a website in quite a short time and great budget.",
+      name: "Johan Ring",
       designation: "CEO",
-      company: "Swiss International Tours",
+      company: "Apex Truckers",
       image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715598296/swiss-removebg-preview_kx7dfn.png",
     },
     {
       testimonial:
-        "I wanted a website built on latest frameworks and improved navigation to meet my business needs and Muarif helped me just so.",
-      name: "Tahir Mehmood",
+        "I wanted a website built on latest frameworks and improved navigation to meet my business needs and Zaib helped me just so.",
+      name: "Usman Mailk",
       designation: "CEO",
-      company: "CareWays Systems",
+      company: "Strong Packagings",
       image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715598500/logo-no-background_faifna.png",
     },
     {
       testimonial:
-        "I wanted a professional website to help meet my affiliate business requirements and Muarif helped me build one exactly the way I wanted it to be.",
-      name: "Idress Faisal",
+        "I wanted a professional website to help meet my affiliate business requirements and JahanZaib helped me build one exactly the way I wanted it to be.",
+      name: "Jeff Petter",
       designation: "CEO",
-      company: "FiDigital Marketing.",
+      company: "Airdnb.",
       image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715598667/logo-no-background_ulyicq.png",
     },
   ];
   
   const projects = [
     {
-      name: "Swiss International Tours",
+      name: "Chat KYC",
       description:
-        "A Next.js Travel Platform providing  cutting-edge web solution , developed for an esteemed travel agency to enhance its digital marketing strategies and engage customers effectively.",
+        "Chat KYC is an AI-driven project designed to deliver financial crime reports. It covers data from ten countries, offering comprehensive insights. This tool enhances due diligence and compliance in financial transactions.",
       tags: [
         {
-          name: "Next.Js",
+          name: "Reactjs and Nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -219,21 +215,20 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Tailwind",
+          name: "Stripe / Twilio",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715597757/sws_yfnaqt.png",
-      source_code_link: "https://github.com/muarif123/SWISS-INTERNATIONALE",
-      links:"https://swiss-international-tours.vercel.app/",
+      image: "./src/assets/chat.png",
+      links:"https://chat-kyc.vercel.app/",
     },
     {
-      name: "CareWays",
+      name: "Airbnb Like This Website",
       description:
-        "Web application that enables users to search for different techs and gadgets, view a variety of options for different price ranges.",
+        "We create the Like this same webiste or Airbnb.com . User Book the Room in Different Countrious and Buy the House.",
       tags: [
         {
-          name: "Next.Js",
+          name: "Nodejs / Reactjs",
           color: "blue-text-gradient",
         },
         {
@@ -241,21 +236,21 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Taiwlind CSS",
+          name: "Bootstrap CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715598028/carew2_dhztnc.png",
-      source_code_link: "https://github.com/muarif123/CarWays",
-      links:"https://care-ways-systems.vercel.app/"
+      image: "./src/assets/air.png",
+      source_code_link: "",
+      links:"https://airbnb-frontend-beta.vercel.app/"
     },
     {
-      name: "FunnelUP",
+      name: "Strong Packagings",
       description:
-        "FunnelUP Affiliate Marketing Website is a dynamic and admin-based-feature-rich platform designed to boost the affiliate marketing efforts of my client.",
+        "The Strong Packagings is Ecommerce Website for UK Client.The Different Categrious Of Product People Buy. The Stripe Payment API ingerate dynamic and responsive with dashboard.",
       tags: [
         {
-          name: "React-Vite",
+          name: "React / Nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -263,13 +258,35 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "MongoDB / Stripe",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "./src/assets/st.png",
+      source_code_link: "https://www.strongpackagings.com/",
+      links:"https://www.strongpackagings.com"
+    },
+    {
+      name: "Apex Truckers",
+      description:
+        "Develop a static portfolio website for Apex Trucker. Use HTML, CSS3, and Bootstrap for a clean, responsive design. Ensure the site is user-friendly and visually appealing.",
+      tags: [
+        {
+          name: "Html5 / CSS3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BootStrap / Email",
+          color: "green-text-gradient",
+        },
+        {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://res.cloudinary.com/diksmyvyt/image/upload/v1715597900/fune_kyhqqo.png",
-      source_code_link: "https://github.com/muarif123/funnelUP",
-      links:"https://funnelup.biz/"
+      image: "./src/assets/ap.png",
+      source_code_link: "",
+      links:"https://apextruckers.com/"
     },
   ];
   

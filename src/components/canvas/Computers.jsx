@@ -8,6 +8,8 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
+    
+
     <mesh>
       <hemisphereLight intensity={0.2} groundColor='black' />
       <ambientLight intensity={4} />
@@ -27,6 +29,7 @@ const Computers = ({ isMobile }) => {
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
+    
   );
 };
 

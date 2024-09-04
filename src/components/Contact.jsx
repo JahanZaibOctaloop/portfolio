@@ -27,7 +27,7 @@ const Contact = () => {
   const handlesubmit=(e)=>{
     e.preventDefault()
     setloading(true)
-    emailjs.send("service_kpd4oyw","template_70xqxns",{from_name:form.name,to_name:"Tahir",from_email:form.email,to_email:"muariftahir961@gmail.com",message:form.message},"rXHyPI5fsGhuPeyd0")
+    emailjs.send("service_pk15iwg","template_6wa5rro",{from_name:form.name,to_name:"Zaib",from_email:form.email,to_email:"jahanzaibasif969@gmail.com",message:form.message},"IEJwpJ6bj-jjo27XP")
     .then(()=>{
       setloading(false)
       alert("Thank you. I will get back to you as soon as possible.")
