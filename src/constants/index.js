@@ -45,9 +45,14 @@ import {
       id: "work",
       title: "Work",
     },
+
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "Download",
+      title: "Download CV",
     },
   ];
   
